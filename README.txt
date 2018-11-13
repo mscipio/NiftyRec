@@ -23,6 +23,21 @@ algorithms.
 2 RELEASE NOTES
 ---------------
 
+This repository is a porting of NiftyRec 2.3.2 as it is available on it website.
+Some changes have been made to the source code, so that it is no longer backward
+compatible, but it now fully supports the latest stable version of occiput 
+(in its current stable version available via pip) and the beta of occiput-suite
+now under development at https://github.com/mscipio/occiput-suite.
+
+This new version of NiftyRec will be called 3.0.0, as to underline the dramatic changes
+wrt the previous release.
+
+--------------------
+
+For the sake of completeness, and to ackowledge the work of the original developers,
+the original changelog will follow:
+
+
 -- NiftyRec 1.0 (Rel. Nov 2010)-- 
     * Rotation-based projection and backprojection with depth dependent point spread function
     * GPU accelerated version working ok (non accelerated version not working)
@@ -79,24 +94,6 @@ algorithms.
 
 -- NiftyRec 1.6.8 (Rel. Mar. 2013) -- 
     * Fixed compilation issues under Windows
-
-######################################################################################
-
------------------------------------
-3 INSTALL BINARIES 
-
-See the Wiki on the website of 
-NiftyRec for detailed instructions
------------------------------------
-
---Debian Linux 
-   Double click on .deb installer and follow instructions on screen.
-
---Windows
-   Double click on the self-extracting installer and follow instructions on screen.  
-
---MAC OS
-   Drag and drop the drag-and-drop installer in the Applications folder.
 
 ######################################################################################
 

@@ -37,9 +37,9 @@ ENABLE_TESTING()
 
 #-----------------------------------------------------------------------------
 # NiftyRec version: 
-SET(Nifty_Rec_VERSION_MAJOR 2)
-SET(Nifty_Rec_VERSION_MINOR 3)
-SET(Nifty_Rec_VERSION_PATCH 2)
+SET(Nifty_Rec_VERSION_MAJOR 3)
+SET(Nifty_Rec_VERSION_MINOR 0)
+SET(Nifty_Rec_VERSION_PATCH 0)
 
 #-----------------------------------------------------------------------------
 # Build options: 
